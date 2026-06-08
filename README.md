@@ -24,7 +24,11 @@ Every significant update will be recorded and versioned to ensure accountability
 
 #  更新日志 (Changelog)
 
+## 
 
+### V6.0.5 - 2026/6/5
+
+- 优化币币NPE和Redis Stream消费者组逻辑
 
 ### V6.0.4 - 2026/5/20
 
@@ -79,6 +83,16 @@ Every significant update will be recorded and versioned to ensure accountability
 - **[漏洞可达性]** 验证当前运行路径下的依赖漏洞是否可达（需进行可达性验证）。
 
 ---
+
+# TODO
+
+**自建钱包归集**
+
+- 支持主地址资产展示。
+- 支持子地址池、已分配地址、待归集资产和地址余额查看。
+- 支持单地址归集、批量归集和补充 Gas。
+- 支持查看用户关联地址和链上浏览器跳转。
+
 
 
 ## 声明

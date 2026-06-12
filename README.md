@@ -24,7 +24,9 @@ Every significant update will be recorded and versioned to ensure accountability
 
 #  更新日志 (Changelog)
 
-## 
+### V6.0.5 - 2026/6/10
+
+- 修复 H5「我的投资」页「累计收益」：后端 `personalIncome()` 的 `sumEarn` 由 `sum(t_mine_order.accumula_earn)` 改为汇总用户全时段 `FINANCIAL_SETTLEMENT` 钱包流水（与「当日赚取」同一账本）。
 
 ### V6.0.5 - 2026/6/5
 

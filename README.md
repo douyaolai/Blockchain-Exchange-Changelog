@@ -24,6 +24,14 @@ Every significant update will be recorded and versioned to ensure accountability
 
 #  更新日志 (Changelog)
 
+### V6.0.6 - 2026/6/15
+
+- 入金新增 **TokenPay** 支付网关（后台与优盾二选一），支持每用户分配独立充值地址，自动归集指定冷钱包
+
+### V6.0.6 - 2026/6/14
+
+- 优化 H5 充值页 `recharge-apply-udun`
+
 ### V6.0.5 - 2026/6/10
 
 - 修复 H5「我的投资」页「累计收益」：后端 `personalIncome()` 的 `sumEarn` 由 `sum(t_mine_order.accumula_earn)` 改为汇总用户全时段 `FINANCIAL_SETTLEMENT` 钱包流水（与「当日赚取」同一账本）。

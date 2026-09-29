@@ -46,6 +46,8 @@ For more information about the system, please visit: https://rwadocs.bnbcode.com
 
 ### V6.3.0 - 2026/8
 
+![image-20260929234130588](./assets/image-20260929234130588.png)
+
 - 行情与 K 线：接入 TradingView 专业图表，多周期切换、指标齐全；行情价格实时推送，K 线顶部报价已做到秒级更新
 - 引入行情陈旧保护——数据源异常时不再采信过期价格
 - 秒合约：下单 → 倒计时 → 自动结算全链路原生，倒计时以服务端定盘时刻为唯一基准，所见即真实结算时点
